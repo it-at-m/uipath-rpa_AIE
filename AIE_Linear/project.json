@@ -1,0 +1,62 @@
+{
+  "name": "AIE_Linear",
+  "projectId": "74832a49-3fe7-411c-8b6a-7d3b5878ef52",
+  "description": "Der Prozess erstellt monatlich einen KPI-Report für definierte UiPath-Orchestrator-Queues. Er liest alle in der Excel-Konfiguration aktivierten Queues aus, wertet für den vorherigen abgeschlossenen Kalendermonat erfolgreiche und fehlgeschlagene Queue Items aus und berechnet daraus Anzahl, Bearbeitungsdauer, Durchschnittsdauer und Erfolgsquote. Die Ergebnisse werden in ein Excel-Template geschrieben und dort automatisch zusammengefasst",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.4]",
+    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.Testing.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities.Design.RecoveryPanel": "[24.10.11]",
+    "UiPath.WebAPI.Activities": "[1.21.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.187.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "575c0683-c50b-45df-a4da-6af1d936f790",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

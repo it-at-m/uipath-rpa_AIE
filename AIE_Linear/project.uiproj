@@ -1,0 +1,6 @@
+{
+  "Name": "AIE_Linear",
+  "ProjectType": "Process",
+  "Description": "Der Prozess erstellt monatlich einen KPI-Report für definierte UiPath-Orchestrator-Queues. Er liest alle in der Excel-Konfiguration aktivierten Queues aus, wertet für den vorherigen abgeschlossenen Kalendermonat erfolgreiche und fehlgeschlagene Queue Items aus und berechnet daraus Anzahl, Bearbeitungsdauer, Durchschnittsdauer und Erfolgsquote. Die Ergebnisse werden in ein Excel-Template geschrieben und dort automatisch zusammengefasst",
+  "MainFile": "Main.xaml"
+}
